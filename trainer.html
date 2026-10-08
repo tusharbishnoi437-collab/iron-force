@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-950 text-white">
+     <header class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur">
+        <div class="container mx-auto px-5">
+            <nav class="flex min-h-[75px] items-center justify-between">
+
+                <a href="#home" class="text-2xl font-bold tracking-wider">
+                    IRON <span class="text-red-600">FORCE</span>
+                </a>
+
+                <div class="hidden items-center gap-7 lg:flex">
+                    <a href="index.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">Home</a>
+                    <a href="about.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">About</a>
+                    <a href="programs.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">Programs</a>
+                    <a href="trainer.html" class="text-sm uppercase tracking-wide text-red-500 hover:text-red-500 transition">Trainers</a>
+                </div>
+
+                <a href="form.html"
+                   class="hidden rounded-lg bg-red-600 px-5 py-3 text-sm font-bold uppercase tracking-wide hover:bg-red-700 transition sm:block">
+                    Join Now
+                </a>
+
+                <a href="form.html"
+                   class="rounded-lg border border-red-600 px-4 py-2 text-sm font-bold uppercase lg:hidden">
+                    Join
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="gallery" class="bg-zinc-900 py-24">
+        <div class="container mx-auto px-5">
+
+            <div class="mx-auto mb-14 max-w-2xl text-center">
+                <p class="mb-3 font-bold uppercase tracking-[0.25em] text-red-500">
+                    Inside Iron Force
+                </p>
+
+                <h2 class="text-4xl font-bold uppercase sm:text-5xl">
+                    Our Gym Gallery
+                </h2>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+                         alt="Gym interior"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=85"
+                         alt="Weight training"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1000&q=85"
+                         alt="Personal training"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=85"
+                         alt="Fitness workout"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1000&q=85"
+                         alt="Cardio workout"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="group overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1000&q=85"
+                         alt="Group workout"
+                         class="h-72 w-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section class="bg-black text-white py-20 px-6">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <div class="text-center mb-14">
+      <p class="text-red-500 uppercase tracking-[4px] font-bold mb-3">
+        Meet Our Team
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-5">
+        Our <span class="text-red-500">Expert Trainers</span>
+      </h2>
+
+      <p class="text-gray-400 max-w-2xl mx-auto leading-7">
+        Train with certified fitness professionals who are dedicated to
+        helping you become stronger, healthier and more confident.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="group bg-zinc-900 rounded-3xl overflow-hidden
+                  border border-zinc-800 hover:border-red-500
+                  transition duration-300">
+
+        <div class="relative overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80"
+            alt="Fitness Trainer"
+            class="w-full h-96 object-cover
+                   group-hover:scale-105 transition duration-500"
+          >
+
+          <div class="absolute bottom-4 left-4 bg-red-600
+                      px-4 py-2 rounded-lg text-sm font-bold">
+            Head Trainer
+          </div>
+        </div>
+
+        <div class="p-7">
+          <h3 class="text-2xl font-bold mb-2">
+            Alex Johnson
+          </h3>
+
+          <p class="text-red-500 font-semibold mb-4">
+            Strength & Conditioning
+          </p>
+
+          <p class="text-gray-400 leading-7 mb-5">
+            8+ years of experience helping members build strength,
+            improve performance and achieve their fitness goals.
+          </p>
+
+          <div class="flex gap-3">
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Strength
+            </span>
+
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Muscle
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group bg-zinc-900 rounded-3xl overflow-hidden
+                  border border-zinc-800 hover:border-red-500
+                  transition duration-300">
+
+        <div class="relative overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80"
+            alt="Personal Trainer"
+            class="w-full h-96 object-cover
+                   group-hover:scale-105 transition duration-500"
+          >
+
+          <div class="absolute bottom-4 left-4 bg-red-600
+                      px-4 py-2 rounded-lg text-sm font-bold">
+            Personal Trainer
+          </div>
+        </div>
+
+        <div class="p-7">
+          <h3 class="text-2xl font-bold mb-2">
+            Sarah Williams
+          </h3>
+
+          <p class="text-red-500 font-semibold mb-4">
+            Fitness & Weight Loss
+          </p>
+
+          <p class="text-gray-400 leading-7 mb-5">
+            Specializes in personalized workouts, fat loss programs
+            and healthy lifestyle transformation.
+          </p>
+
+          <div class="flex gap-3">
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Weight Loss
+            </span>
+
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Cardio
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="group bg-zinc-900 rounded-3xl overflow-hidden
+                  border border-zinc-800 hover:border-red-500
+                  transition duration-300">
+
+        <div class="relative overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
+            alt="Fitness Coach"
+            class="w-full h-96 object-cover
+                   group-hover:scale-105 transition duration-500"
+          >
+
+          <div class="absolute bottom-4 left-4 bg-red-600
+                      px-4 py-2 rounded-lg text-sm font-bold">
+            Fitness Coach
+          </div>
+        </div>
+
+        <div class="p-7">
+          <h3 class="text-2xl font-bold mb-2">
+            Mike Carter
+          </h3>
+
+          <p class="text-red-500 font-semibold mb-4">
+            Functional Training
+          </p>
+
+          <p class="text-gray-400 leading-7 mb-5">
+            Focused on functional training, mobility and creating
+            sustainable fitness routines.
+          </p>
+
+          <div class="flex gap-3">
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Mobility
+            </span>
+
+            <span class="px-4 py-2 bg-zinc-800 rounded-lg text-sm">
+              Fitness
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <footer class="border-t border-zinc-800 bg-black pt-16">
+
+        <div class="container mx-auto px-5">
+
+            <div class="grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-4">
+
+                <div>
+                    <a href="#home" class="text-2xl font-bold tracking-wider">
+                        IRON <span class="text-red-600">FORCE</span>
+                    </a>
+
+                    <p class="mt-5 leading-7 text-zinc-500">
+                        Premium fitness training designed to help you become stronger,
+                        healthier and more confident.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Quick Links</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-red-500 transition">About</a></li>
+                        <li><a href="#programs" class="hover:text-red-500 transition">Programs</a></li>
+                        <li><a href="#trainers" class="hover:text-red-500 transition">Trainers</a></li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Programs</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li>Strength Training</li>
+                        <li>Weight Loss</li>
+                        <li>Cardio Training</li>
+                        <li>Personal Training</li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Contact</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li>Jaipur, Rajasthan</li>
+                        <li>+91 9660790529</li>
+                        <li>tusharbishnoi437@gmail.com</li>
+                    </ul>
+
+                    <div class="mt-5 flex gap-3">
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">f</a>
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">ig</a>
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">in</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-zinc-800 py-6 text-center text-sm text-zinc-600">
+                © 2026 IRON FORCE FITNESS. All Rights Reserved.
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

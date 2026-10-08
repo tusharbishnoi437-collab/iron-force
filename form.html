@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-950 text-white">
+     <header class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur">
+        <div class="container mx-auto px-5">
+            <nav class="flex min-h-[75px] items-center justify-between">
+
+                <a href="#home" class="text-2xl font-bold tracking-wider">
+                    IRON <span class="text-red-600">FORCE</span>
+                </a>
+
+                <div class="hidden items-center gap-7 lg:flex">
+                    <a href="index.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">Home</a>
+                    <a href="about.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">About</a>
+                    <a href="programs.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">Programs</a>
+                    <a href="trainer.html" class="text-sm uppercase tracking-wide hover:text-red-500 transition">Trainers</a>
+                </div>
+
+                <a href="form.html"
+                   class="hidden rounded-lg bg-red-600 px-5 py-3 text-sm font-bold uppercase tracking-wide hover:bg-red-700 transition sm:block">
+                    Join Now
+                </a>
+
+                <a href="form.html"
+                   class="rounded-lg border border-red-600 px-4 py-2 text-sm font-bold uppercase lg:hidden">
+                    Join
+                </a>
+            </nav>
+        </div>
+    </header>
+
+     <section id="contact" class="py-24">
+        <div class="container mx-auto px-5">
+
+            <div class="mx-auto mb-14 max-w-2xl text-center">
+                <p class="mb-3 font-bold uppercase tracking-[0.25em] text-red-500">
+                    Contact Us
+                </p>
+
+                <h2 class="text-4xl font-bold uppercase sm:text-5xl">
+                    Get In Touch
+                </h2>
+            </div>
+
+            <div class="grid gap-10 lg:grid-cols-2">
+
+                <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 sm:p-10">
+
+                    <h3 class="text-3xl font-bold uppercase">
+                        Visit Iron Force
+                    </h3>
+
+                    <p class="mt-4 leading-7 text-zinc-400">
+                        Have questions about membership or training programs?
+                        Contact our team and start your fitness journey.
+                    </p>
+
+                    <div class="mt-8 space-y-6">
+
+                        <div>
+                            <p class="text-sm uppercase tracking-wider text-red-500">Address</p>
+                            <p class="mt-1 text-zinc-300">
+                                123 Fitness Street, Jaipur, Rajasthan, India
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm uppercase tracking-wider text-red-500">Phone</p>
+                            <p class="mt-1 text-zinc-300">
+                                +91 9660790529
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm uppercase tracking-wider text-red-500">Email</p>
+                            <p class="mt-1 text-zinc-300">
+                                tusharbishnoi437@gmail.com
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm uppercase tracking-wider text-red-500">Opening Hours</p>
+                            <p class="mt-1 text-zinc-300">
+                                Monday - Sunday: 5:00 AM - 11:00 PM
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 sm:p-10">
+
+                    <form>
+
+                        <div class="grid gap-5 sm:grid-cols-2">
+
+                            <div>
+                                <label class="mb-2 block text-sm font-bold uppercase">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    placeholder="Your Name"
+                                    class="w-full rounded-lg border border-zinc-700 bg-zinc-950 px-4 py-3 text-white outline-none focus:border-red-600">
+                            </div>
+
+                            <div>
+                                <label class="mb-2 block text-sm font-bold uppercase">
+                                    Email
+                                </label>
+
+                                <input
+                                    type="email"
+                                    placeholder="Your Email"
+                                    class="w-full rounded-lg border border-zinc-700 bg-zinc-950 px-4 py-3 text-white outline-none focus:border-red-600">
+                            </div>
+
+                        </div>
+
+                        <div class="mt-5">
+                            <label class="mb-2 block text-sm font-bold uppercase">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                placeholder="+91 "
+                                class="w-full rounded-lg border border-zinc-700 bg-zinc-950 px-4 py-3 text-white outline-none focus:border-red-600">
+                        </div>
+
+                        <div class="mt-5">
+                            <label class="mb-2 block text-sm font-bold uppercase">
+                                Message
+                            </label>
+
+                            <textarea
+                                rows="6"
+                                placeholder="Write your message..."
+                                class="w-full resize-none rounded-lg border border-zinc-700 bg-zinc-950 px-4 py-3 text-white outline-none focus:border-red-600"></textarea>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="mt-6 w-full rounded-lg bg-red-600 py-4 font-bold uppercase tracking-wide hover:bg-red-700 transition">
+                            Send Message
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+      <footer class="border-t border-zinc-800 bg-black pt-16">
+
+        <div class="container mx-auto px-5">
+
+            <div class="grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-4">
+
+                <div>
+                    <a href="#home" class="text-2xl font-bold tracking-wider">
+                        IRON <span class="text-red-600">FORCE</span>
+                    </a>
+
+                    <p class="mt-5 leading-7 text-zinc-500">
+                        Premium fitness training designed to help you become stronger,
+                        healthier and more confident.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Quick Links</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-red-500 transition">About</a></li>
+                        <li><a href="#programs" class="hover:text-red-500 transition">Programs</a></li>
+                        <li><a href="#trainers" class="hover:text-red-500 transition">Trainers</a></li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Programs</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li>Strength Training</li>
+                        <li>Weight Loss</li>
+                        <li>Cardio Training</li>
+                        <li>Personal Training</li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="text-lg font-bold uppercase">Contact</h3>
+
+                    <ul class="mt-5 space-y-3 text-zinc-500">
+                        <li>Jaipur, Rajasthan</li>
+                        <li>+91 9660790529</li>
+                        <li>tusharbishnoi437@gmail.com</li>
+                    </ul>
+
+                    <div class="mt-5 flex gap-3">
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">f</a>
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">ig</a>
+                        <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 hover:bg-red-600 transition">in</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-zinc-800 py-6 text-center text-sm text-zinc-600">
+                © 2026 IRON FORCE FITNESS. All Rights Reserved.
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
